@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.Profile_Content{
+  scroll-snap-align: center;
+}
+#Project_Skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  list-style-type: none
+}
+
+.Projects {
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+
+.project-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.Description {
+  flex-grow: 1;
+  margin-bottom: 15px;
+}
+
+.Skills {
+  margin-top: 10px;
+}
+
+.Tech-List {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.Tech-List li {
+  margin-bottom: 5px;
+}
+
+
